@@ -1,0 +1,132 @@
+2024-07-10 18:38:27,264:WARNING:/usr/lib/python3/dist-packages/sklearn/linear_model/_logistic.py:762: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2024-07-10 18:39:23,003:WARNING:/usr/lib/python3/dist-packages/sklearn/linear_model/_logistic.py:762: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2024-07-10 18:40:42,534:WARNING:/usr/lib/python3/dist-packages/sklearn/linear_model/_logistic.py:762: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2024-07-10 18:42:13,469:WARNING:/usr/lib/python3/dist-packages/sklearn/linear_model/_logistic.py:762: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2024-07-10 18:43:00,971:WARNING:/usr/lib/python3/dist-packages/sklearn/preprocessing/_data.py:2367: UserWarning: n_quantiles (1000) is greater than the total number of samples (643). n_quantiles is set to n_samples.
+  warnings.warn("n_quantiles (%s) is greater than the total number "
+
+2024-07-10 18:43:46,348:WARNING:/usr/lib/python3/dist-packages/sklearn/linear_model/_logistic.py:762: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2024-07-10 18:58:51,469:WARNING:/tmp/ipykernel_39670/2619773030.py:5: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_bikez_bmw["Bike"] = df_bikez_bmw["Bike"].replace(" ", "", regex=True)
+
+2024-07-10 18:58:51,557:WARNING:/tmp/ipykernel_39670/746029178.py:6: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_bikez_royal_enfield["Bike"] = df_bikez_royal_enfield["Bike"].replace(" ", "", regex=True)
+
+2024-07-10 18:58:51,631:WARNING:/tmp/ipykernel_39670/1497480933.py:5: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_bikez_ducatti["Bike"] = df_bikez_ducatti["Bike"].replace(" ", "", regex=True)
+
+2024-07-10 18:58:51,713:WARNING:/tmp/ipykernel_39670/1294204431.py:5: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_bikez_ktm["Bike"] = df_bikez_ktm["Bike"].replace(" ", "", regex=True)
+
+2024-07-10 18:58:51,794:WARNING:/tmp/ipykernel_39670/2620846397.py:5: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_bikez_suzuki["Bike"] = df_bikez_suzuki["Bike"].replace(" ", "", regex=True)
+
+2024-07-10 18:58:51,891:WARNING:/tmp/ipykernel_39670/4220114532.py:5: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_bikez_yamaha["Bike"] = df_bikez_yamaha["Bike"].replace(" ", "", regex=True)
+
+2024-07-10 20:31:32,591:WARNING:/tmp/ipykernel_39670/2619773030.py:5: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_bikez_bmw["Bike"] = df_bikez_bmw["Bike"].replace(" ", "", regex=True)
+
+2024-07-10 20:31:32,677:WARNING:/tmp/ipykernel_39670/746029178.py:6: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_bikez_royal_enfield["Bike"] = df_bikez_royal_enfield["Bike"].replace(" ", "", regex=True)
+
+2024-07-10 20:31:32,750:WARNING:/tmp/ipykernel_39670/1497480933.py:5: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_bikez_ducatti["Bike"] = df_bikez_ducatti["Bike"].replace(" ", "", regex=True)
+
+2024-07-10 20:31:32,832:WARNING:/tmp/ipykernel_39670/1294204431.py:5: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_bikez_ktm["Bike"] = df_bikez_ktm["Bike"].replace(" ", "", regex=True)
+
+2024-07-10 20:31:32,911:WARNING:/tmp/ipykernel_39670/2620846397.py:5: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_bikez_suzuki["Bike"] = df_bikez_suzuki["Bike"].replace(" ", "", regex=True)
+
+2024-07-10 20:31:33,004:WARNING:/tmp/ipykernel_39670/4220114532.py:5: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_bikez_yamaha["Bike"] = df_bikez_yamaha["Bike"].replace(" ", "", regex=True)
+
