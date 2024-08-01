@@ -2362,9 +2362,15 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">programme.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1" intorder="1">kaggle_1</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">kaggle_2</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">sklearn_preprocessing</bcf:citekey>
+    <bcf:citekey order="1" intorder="1">sklearn</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">pandas</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">numpy</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">matplotlib</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">seaborn</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">catboost</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">XGBoost</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">kaggle_1</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">kaggle_2</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

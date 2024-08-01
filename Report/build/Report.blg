@@ -1,20 +1,20 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'build/Report.blg'
-[60] biber:340> INFO - === Tue Jul 30, 2024, 23:17:48
-[79] Biber.pm:419> INFO - Reading 'build/Report.bcf'
-[136] Biber.pm:979> INFO - Found 3 citekeys in bib section 0
-[149] Biber.pm:4419> INFO - Processing section 0
-[159] Biber.pm:4610> INFO - Looking for bibtex file 'lit.bib' for section 0
-[296] bibtex.pm:1713> INFO - LaTeX decoding ...
-[316] bibtex.pm:1519> INFO - Found BibTeX data source '../lit.bib'
-[337] Biber.pm:4610> INFO - Looking for bibtex file 'programme.bib' for section 0
-[471] bibtex.pm:1713> INFO - LaTeX decoding ...
-[483] bibtex.pm:1519> INFO - Found BibTeX data source '../programme.bib'
-[492] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[493] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'variable = shifted' with 'variable = non-ignorable'
-[493] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-GB'
-[493] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-GB'
-[501] bbl.pm:660> INFO - Writing 'build/Report.bbl' with encoding 'UTF-8'
-[503] bbl.pm:763> INFO - Output to build/Report.bbl
-[504] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_Aa4k/03cb965aa3b3472c2289b9a0b44cc47a_381664.utf8, line 31, warning: 74 characters of junk seen at toplevel
-[504] Biber.pm:133> INFO - WARNINGS: 1
+[60] biber:340> INFO - === Wed Jul 31, 2024, 19:04:39
+[81] Biber.pm:419> INFO - Reading 'build/Report.bcf'
+[141] Biber.pm:979> INFO - Found 9 citekeys in bib section 0
+[154] Biber.pm:4419> INFO - Processing section 0
+[163] Biber.pm:4610> INFO - Looking for bibtex file 'lit.bib' for section 0
+[331] bibtex.pm:1713> INFO - LaTeX decoding ...
+[352] bibtex.pm:1519> INFO - Found BibTeX data source '../lit.bib'
+[374] Biber.pm:4610> INFO - Looking for bibtex file 'programme.bib' for section 0
+[560] bibtex.pm:1713> INFO - LaTeX decoding ...
+[572] bibtex.pm:1519> INFO - Found BibTeX data source '../programme.bib'
+[645] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[646] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'variable = shifted' with 'variable = non-ignorable'
+[646] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-GB'
+[646] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-GB'
+[655] bbl.pm:660> INFO - Writing 'build/Report.bbl' with encoding 'UTF-8'
+[667] bbl.pm:763> INFO - Output to build/Report.bbl
+[668] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_L_6M/03cb965aa3b3472c2289b9a0b44cc47a_283342.utf8, line 31, warning: 74 characters of junk seen at toplevel
+[668] Biber.pm:133> INFO - WARNINGS: 1

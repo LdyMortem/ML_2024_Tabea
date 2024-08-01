@@ -9,6 +9,20 @@
 \providecommand\BKM@entry[2]{}
 \babel@aux{british}{}
 \BKM@entry{id=1,dest={73656374696F6E2E31},srcline={1},srcfile={2E2F636F6E74656E742F4D6F7469766174696F6E2E746578}}{5C3337365C3337375C3030304D5C3030306F5C303030745C303030695C303030765C303030615C303030745C303030695C3030306F5C3030306E}
+\abx@aux@cite{0}{sklearn}
+\abx@aux@segm{0}{0}{sklearn}
+\abx@aux@cite{0}{pandas}
+\abx@aux@segm{0}{0}{pandas}
+\abx@aux@cite{0}{numpy}
+\abx@aux@segm{0}{0}{numpy}
+\abx@aux@cite{0}{matplotlib}
+\abx@aux@segm{0}{0}{matplotlib}
+\abx@aux@cite{0}{seaborn}
+\abx@aux@segm{0}{0}{seaborn}
+\abx@aux@cite{0}{catboost}
+\abx@aux@segm{0}{0}{catboost}
+\abx@aux@cite{0}{XGBoost}
+\abx@aux@segm{0}{0}{XGBoost}
 \BKM@entry{id=2,dest={73656374696F6E2E32},srcline={1},srcfile={2E2F636F6E74656E742F446174617365742E746578}}{5C3337365C3337375C303030445C303030615C303030745C303030615C303030735C303030655C30303074}
 \abx@aux@cite{0}{kaggle_1}
 \abx@aux@segm{0}{0}{kaggle_1}
@@ -20,61 +34,90 @@
 \@writefile{toc}{\contentsline {section}{\numberline {2}Dataset}{3}{section.2}\protected@file@percent }
 \newlabel{sec:Dataset}{{2}{3}{Dataset}{section.2}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Preprocessing}{4}{subsection.2.1}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Excerpt of one of the datasets containing the price and selling specifications (left) and the dataset containing the motorcycle specifications (right).}}{4}{figure.caption.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Excerpt of one of the brand datasets (BMW) containing price and selling specifications (left) and the dataset containing further model specifications (right).}}{4}{figure.caption.2}\protected@file@percent }
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
-\newlabel{fig:Bike_Tables_raw}{{1}{4}{Excerpt of one of the datasets containing the price and selling specifications (left) and the dataset containing the motorcycle specifications (right)}{figure.caption.2}{}}
-\BKM@entry{id=4,dest={73756273656374696F6E2E322E32},srcline={53},srcfile={2E2F636F6E74656E742F446174617365742E746578}}{5C3337365C3337375C303030455C303030785C303030705C3030306C5C3030306F5C303030725C303030615C303030745C3030306F5C303030725C303030795C3030305C3034305C303030445C303030615C303030745C303030615C3030305C3034305C303030415C3030306E5C303030615C3030306C5C303030795C303030735C303030695C30303073}
-\abx@aux@cite{0}{sklearn_preprocessing}
-\abx@aux@segm{0}{0}{sklearn_preprocessing}
+\newlabel{fig:Bike_Tables_raw}{{1}{4}{Excerpt of one of the brand datasets (BMW) containing price and selling specifications (left) and the dataset containing further model specifications (right)}{figure.caption.2}{}}
+\BKM@entry{id=4,dest={73756273656374696F6E2E322E32},srcline={50},srcfile={2E2F636F6E74656E742F446174617365742E746578}}{5C3337365C3337375C303030455C303030785C303030705C3030306C5C3030306F5C303030725C303030615C303030745C3030306F5C303030725C303030795C3030305C3034305C303030445C303030615C303030745C303030615C3030305C3034305C303030415C3030306E5C303030615C3030306C5C303030795C303030735C303030695C30303073}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Exploratory Data Analysis}{5}{subsection.2.2}\protected@file@percent }
 \newlabel{sec:Expl}{{2.2}{5}{Exploratory Data Analysis}{subsection.2.2}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Scatter matrix of all dataset columns (except dummy columns).}}{6}{figure.caption.3}\protected@file@percent }
-\newlabel{fig:Scatterplot_All}{{2}{6}{Scatter matrix of all dataset columns (except dummy columns)}{figure.caption.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Scatter matrix of all dataset attributes (except dummy columns) with their histograms presented on the diagonal.}}{6}{figure.caption.3}\protected@file@percent }
+\newlabel{fig:Scatterplot_All}{{2}{6}{Scatter matrix of all dataset attributes (except dummy columns) with their histograms presented on the diagonal}{figure.caption.3}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Scatter plots of the training attributes with the target value (\textit  {Price [€]}).}}{7}{figure.caption.4}\protected@file@percent }
 \newlabel{fig:Scatterplot_Price}{{3}{7}{Scatter plots of the training attributes with the target value (\textit {Price [€]})}{figure.caption.4}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Correlation matrix of the provided dataset attributes.}}{8}{figure.caption.5}\protected@file@percent }
-\newlabel{fig:Corr_matrix}{{4}{8}{Correlation matrix of the provided dataset attributes}{figure.caption.5}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Scatter plot of \textit  {Mileage} and \textit  {Age} with different scaling methods.}}{9}{figure.caption.6}\protected@file@percent }
-\newlabel{fig:Scaling}{{5}{9}{Scatter plot of \textit {Mileage} and \textit {Age} with different scaling methods}{figure.caption.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Correlation matrix of the used dataset attributes with encoded categorical columns.}}{7}{figure.caption.5}\protected@file@percent }
+\newlabel{fig:Corr_matrix}{{4}{7}{Correlation matrix of the used dataset attributes with encoded categorical columns}{figure.caption.5}{}}
 \BKM@entry{id=5,dest={73656374696F6E2E33},srcline={1},srcfile={2E2F636F6E74656E742F4D616368696E655F4C6561726E696E672E746578}}{5C3337365C3337375C3030304D5C303030615C303030635C303030685C303030695C3030306E5C303030655C3030305C3034305C3030304C5C303030655C303030615C303030725C3030306E5C303030695C3030306E5C303030675C3030305C3034305C3030304D5C3030306F5C303030645C303030655C3030306C5C30303073}
-\BKM@entry{id=6,dest={73756273656374696F6E2E332E31},srcline={7},srcfile={2E2F636F6E74656E742F4D616368696E655F4C6561726E696E672E746578}}{5C3337365C3337375C303030525C303030655C303030675C303030725C303030655C303030735C303030735C303030695C3030306F5C3030306E5C3030305C3034305C3030304D5C3030306F5C303030645C303030655C3030306C5C30303073}
-\BKM@entry{id=7,dest={73756273656374696F6E2E332E32},srcline={29},srcfile={2E2F636F6E74656E742F4D616368696E655F4C6561726E696E672E746578}}{5C3337365C3337375C303030455C3030306E5C303030735C303030655C3030306D5C303030625C3030306C5C303030655C303030645C3030305C3034305C3030304D5C3030306F5C303030645C303030655C3030306C}
-\@writefile{toc}{\contentsline {section}{\numberline {3}Machine Learning Models}{10}{section.3}\protected@file@percent }
-\newlabel{sec:ML}{{3}{10}{Machine Learning Models}{section.3}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Regression Models}{10}{subsection.3.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Ensembled Model}{11}{subsection.3.2}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces .}}{11}{figure.caption.7}\protected@file@percent }
-\newlabel{fig:}{{6}{11}{}{figure.caption.7}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces .}}{12}{figure.caption.8}\protected@file@percent }
-\newlabel{fig:}{{7}{12}{}{figure.caption.8}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces .}}{12}{figure.caption.9}\protected@file@percent }
-\newlabel{fig:}{{8}{12}{}{figure.caption.9}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces .}}{13}{figure.caption.10}\protected@file@percent }
-\newlabel{fig:}{{9}{13}{}{figure.caption.10}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces .}}{13}{figure.caption.11}\protected@file@percent }
-\newlabel{fig:}{{10}{13}{}{figure.caption.11}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces .}}{14}{figure.caption.12}\protected@file@percent }
-\newlabel{fig:}{{11}{14}{}{figure.caption.12}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces .}}{14}{figure.caption.13}\protected@file@percent }
-\newlabel{fig:}{{12}{14}{}{figure.caption.13}{}}
-\BKM@entry{id=8,dest={73656374696F6E2E34},srcline={1},srcfile={2E2F636F6E74656E742F416C7465726E61746976655F4D6574686F642E746578}}{5C3337365C3337375C303030415C3030306C5C303030745C303030655C303030725C3030306E5C303030615C303030745C303030695C303030765C303030655C3030305C3034305C3030304D5C303030655C303030745C303030685C3030306F5C303030645C3030305C3034305C3030303A5C3030305C3034305C3030306B5C3030304E5C3030304E5C3030305C3034305C303030525C303030655C303030675C303030725C303030655C303030735C303030735C3030306F5C30303072}
-\BKM@entry{id=9,dest={73756273656374696F6E2E342E31},srcline={4},srcfile={2E2F636F6E74656E742F416C7465726E61746976655F4D6574686F642E746578}}{5C3337365C3337375C303030435C3030306F5C3030306D5C303030705C303030615C303030725C303030695C303030735C3030306F5C3030306E5C3030305C3034305C303030745C3030306F5C3030305C3034305C303030455C3030306E5C303030735C303030655C3030306D5C303030625C3030306C5C303030655C303030645C3030305C3034305C303030525C303030655C303030675C303030725C303030655C303030735C303030735C303030695C3030306F5C3030306E5C3030305C3034305C3030304D5C3030306F5C303030645C303030655C3030306C}
-\BKM@entry{id=10,dest={73656374696F6E2A2E3136},srcline={28},srcfile={2E2F5265706F72742E746578}}{5C3337365C3337375C303030525C303030655C303030665C303030655C303030725C303030655C3030306E5C303030635C303030655C30303073}
-\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces .}}{15}{figure.caption.14}\protected@file@percent }
-\newlabel{fig:}{{13}{15}{}{figure.caption.14}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {4}Alternative Method : kNN Regressor}{15}{section.4}\protected@file@percent }
-\newlabel{sec:Alternative Method}{{4}{15}{Alternative Method : kNN Regressor}{section.4}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Comparison to Ensembled Regression Model}{15}{subsection.4.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\nonumberline References}{15}{section*.16}\protected@file@percent }
+\BKM@entry{id=6,dest={73756273656374696F6E2E332E31},srcline={6},srcfile={2E2F636F6E74656E742F4D616368696E655F4C6561726E696E672E746578}}{5C3337365C3337375C303030525C303030655C303030675C303030725C303030655C303030735C303030735C303030695C3030306F5C3030306E5C3030305C3034305C3030304D5C3030306F5C303030645C303030655C3030306C5C30303073}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Machine Learning Models}{8}{section.3}\protected@file@percent }
+\newlabel{sec:ML}{{3}{8}{Machine Learning Models}{section.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Regression Models}{8}{subsection.3.1}\protected@file@percent }
+\newlabel{sec:regression_models}{{3.1}{8}{Regression Models}{subsection.3.1}{}}
+\BKM@entry{id=7,dest={73756273656374696F6E2E332E32},srcline={67},srcfile={2E2F636F6E74656E742F4D616368696E655F4C6561726E696E672E746578}}{5C3337365C3337375C303030455C3030306E5C303030735C303030655C3030306D5C303030625C3030306C5C303030655C303030645C3030305C3034305C3030304D5C3030306F5C303030645C303030655C3030306C}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Ensembled Model}{9}{subsection.3.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces RMSE, MSE, MAE, $R^2$ score and training time for the best performing individual models and applied scaling methods. The best-performing values are highlighted.}}{10}{table.caption.6}\protected@file@percent }
+\newlabel{tab:Metrics}{{1}{10}{RMSE, MSE, MAE, $R^2$ score and training time for the best performing individual models and applied scaling methods. The best-performing values are highlighted}{table.caption.6}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces RMSE, MSE, MAE, $R^2$ score for training and testing and training time for the ensembled model.}}{10}{table.caption.8}\protected@file@percent }
+\newlabel{tab:Metrics_Ensemble}{{2}{10}{RMSE, MSE, MAE, $R^2$ score for training and testing and training time for the ensembled model}{table.caption.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Schematic view of the ensembled model showing the single pipeline steps (preprocessing and feature selection).}}{11}{figure.caption.7}\protected@file@percent }
+\newlabel{fig:EnsembledModel}{{5}{11}{Schematic view of the ensembled model showing the single pipeline steps (preprocessing and feature selection)}{figure.caption.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Learning curve of the ensembled model for ten different sizes of the training subset.}}{11}{figure.caption.9}\protected@file@percent }
+\newlabel{fig:learning_curve}{{6}{11}{Learning curve of the ensembled model for ten different sizes of the training subset}{figure.caption.9}{}}
+\BKM@entry{id=8,dest={73656374696F6E2E34},srcline={1},srcfile={2E2F636F6E74656E742F416C7465726E61746976655F4D6574686F642E746578}}{5C3337365C3337375C303030415C3030306C5C303030745C303030655C303030725C3030306E5C303030615C303030745C303030695C303030765C303030655C3030305C3034305C3030304D5C303030655C303030745C303030685C3030306F5C303030645C3030305C3034305C3030302D5C3030305C3034305C3030306B5C3030304E5C3030304E5C3030305C3034305C303030525C303030655C303030675C303030725C303030655C303030735C303030735C3030306F5C30303072}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Residuals for different predicted prices for the ensembled model for training and testing subsets. The model seems to overestimate the prices.}}{12}{figure.caption.10}\protected@file@percent }
+\newlabel{fig:Residuals_scatter_ensemble}{{7}{12}{Residuals for different predicted prices for the ensembled model for training and testing subsets. The model seems to overestimate the prices}{figure.caption.10}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Data entries with the highest residuals.}}{12}{figure.caption.11}\protected@file@percent }
+\newlabel{fig:Tables}{{8}{12}{Data entries with the highest residuals}{figure.caption.11}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Alternative Method - kNN Regressor}{12}{section.4}\protected@file@percent }
+\newlabel{sec:Alternative Method}{{4}{12}{Alternative Method - kNN Regressor}{section.4}{}}
+\BKM@entry{id=9,dest={73756273656374696F6E2E342E31},srcline={27},srcfile={2E2F636F6E74656E742F416C7465726E61746976655F4D6574686F642E746578}}{5C3337365C3337375C303030435C3030306F5C3030306D5C303030705C303030615C303030725C303030695C303030735C3030306F5C3030306E5C3030305C3034305C303030745C3030306F5C3030305C3034305C303030455C3030306E5C303030735C303030655C3030306D5C303030625C3030306C5C303030655C303030645C3030305C3034305C3030304D5C3030306F5C303030645C303030655C3030306C}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces RMSE, MSE, MAE, $R^2$ score for training and testing and training time for the kNN regressor.}}{13}{table.caption.12}\protected@file@percent }
+\newlabel{tab:kNN_metrics}{{3}{13}{RMSE, MSE, MAE, $R^2$ score for training and testing and training time for the kNN regressor}{table.caption.12}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Comparison to Ensembled Model}{13}{subsection.4.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Residuals for different predicted prices for the ensembled model for training and testing subsets.}}{14}{figure.caption.13}\protected@file@percent }
+\newlabel{fig:res_knn_ens}{{9}{14}{Residuals for different predicted prices for the ensembled model for training and testing subsets}{figure.caption.13}{}}
+\BKM@entry{id=10,dest={73656374696F6E2A2E3135},srcline={28},srcfile={2E2F5265706F72742E746578}}{5C3337365C3337375C303030525C303030655C303030665C303030655C303030725C303030655C3030306E5C303030635C303030655C30303073}
+\@writefile{toc}{\contentsline {section}{\nonumberline References}{15}{section*.15}\protected@file@percent }
 \BKM@entry{id=11,dest={617070656E6469782E41},srcline={1},srcfile={2E2F636F6E74656E742F417070656E6469782E746578}}{5C3337365C3337375C303030415C303030705C303030705C303030655C3030306E5C303030645C303030695C30303078}
 \@writefile{toc}{\contentsline {section}{\numberline {A}Appendix}{16}{appendix.A}\protected@file@percent }
 \newlabel{sec:Appendix}{{A}{16}{Appendix}{appendix.A}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces RMSE, MSE, MAE, $R^2$ score and training time for all individual models and applied scaling methods. The best-performing values are highlighted.}}{16}{table.caption.16}\protected@file@percent }
+\newlabel{tab:Metrics}{{4}{16}{RMSE, MSE, MAE, $R^2$ score and training time for all individual models and applied scaling methods. The best-performing values are highlighted}{table.caption.16}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Scatter Matrix of the input variables.}}{17}{figure.caption.17}\protected@file@percent }
+\newlabel{fig:}{{10}{17}{Scatter Matrix of the input variables}{figure.caption.17}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Scatter plot of \textit  {Mileage} and \textit  {Age} with different scaling methods.}}{18}{figure.caption.18}\protected@file@percent }
+\newlabel{fig:Scaling}{{11}{18}{Scatter plot of \textit {Mileage} and \textit {Age} with different scaling methods}{figure.caption.18}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Excerpt of one of the datasets containing the price and selling specifications (upper) and the dataset containing the motorcycle specifications (lower).}}{19}{figure.caption.19}\protected@file@percent }
+\newlabel{fig:Bike_Tables_raw}{{12}{19}{Excerpt of one of the datasets containing the price and selling specifications (upper) and the dataset containing the motorcycle specifications (lower)}{figure.caption.19}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces .}}{20}{figure.caption.20}\protected@file@percent }
+\newlabel{fig:}{{13}{20}{}{figure.caption.20}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces Box plots of the cross-validation results of the RMSE for the kNN regressor and the ensembled model.}}{21}{figure.caption.21}\protected@file@percent }
+\newlabel{fig:}{{14}{21}{Box plots of the cross-validation results of the RMSE for the kNN regressor and the ensembled model}{figure.caption.21}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces Distribution of the residuals for the ensembled model for the training and testing subset.}}{21}{figure.caption.22}\protected@file@percent }
+\newlabel{fig:}{{15}{21}{Distribution of the residuals for the ensembled model for the training and testing subset}{figure.caption.22}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces Distribution of the residuals for the testing subset for the ensembled model and kNN regressor.}}{22}{figure.caption.23}\protected@file@percent }
+\newlabel{fig:}{{16}{22}{Distribution of the residuals for the testing subset for the ensembled model and kNN regressor}{figure.caption.23}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces More detailed view of the model schematic of the ensembled model.}}{22}{figure.caption.24}\protected@file@percent }
+\newlabel{fig:}{{17}{22}{More detailed view of the model schematic of the ensembled model}{figure.caption.24}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces Scatterplot of the true and predicted values for the training and testing subset for the ensembled model.}}{23}{figure.caption.25}\protected@file@percent }
+\newlabel{fig:}{{18}{23}{Scatterplot of the true and predicted values for the training and testing subset for the ensembled model}{figure.caption.25}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces Scatterplot of the true and predicted values for the training and testing subset for the kNN regressor.}}{24}{figure.caption.26}\protected@file@percent }
+\newlabel{fig:}{{19}{24}{Scatterplot of the true and predicted values for the training and testing subset for the kNN regressor}{figure.caption.26}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {20}{\ignorespaces Scatter plot of the residuals for the training and testing subset of the kNN regressor.}}{24}{figure.caption.27}\protected@file@percent }
+\newlabel{fig:}{{20}{24}{Scatter plot of the residuals for the training and testing subset of the kNN regressor}{figure.caption.27}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {21}{\ignorespaces Correlation matrix of the used dataset attributes with encoded categorical columns.}}{25}{figure.caption.28}\protected@file@percent }
+\newlabel{fig:}{{21}{25}{Correlation matrix of the used dataset attributes with encoded categorical columns}{figure.caption.28}{}}
 \global\csname @altsecnumformattrue\endcsname
-\abx@aux@read@bbl@mdfivesum{52486D9A951754B8D4531B1F20D072D0}
+\abx@aux@read@bbl@mdfivesum{6ACC4A3E856ED644B5E6805A60B19526}
+\abx@aux@defaultrefcontext{0}{sklearn}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{pandas}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{numpy}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{matplotlib}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{seaborn}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{catboost}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{XGBoost}{none/global//global/global}
 \abx@aux@defaultrefcontext{0}{kaggle_1}{none/global//global/global}
 \abx@aux@defaultrefcontext{0}{kaggle_2}{none/global//global/global}
-\abx@aux@defaultrefcontext{0}{sklearn_preprocessing}{none/global//global/global}
 \global\@namedef{scr@dte@section@lastmaxnumwidth}{17.26793pt}
 \global\@namedef{scr@dte@subsection@lastmaxnumwidth}{23.08795pt}
 \@writefile{toc}{\providecommand\tocbasic@end@toc@file{}\tocbasic@end@toc@file}
-\gdef \@abspage@last{16}
+\gdef \@abspage@last{25}
